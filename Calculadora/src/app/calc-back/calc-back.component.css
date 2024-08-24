@@ -1,0 +1,21 @@
+/* .botones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .botones button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botones button:hover {
+    background-color: #d4d4d4;
+  } Acá los botones no me tomaban los estilos del front así que los puse acá y funcionó, pero después busqué en internet por qué
+   pasaba eso y vi que había una propiedad llamada "encapsulation" que si le ponés el valor "ViewEncapsulation.None" hace que 
+   no se encapsulen los estilos así que usé eso. */
